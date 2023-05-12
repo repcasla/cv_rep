@@ -1,6 +1,15 @@
-head{
-    img;
-}
+
+* {
+    box-sizing: content-box;
+  }
+  
+
+img {
+       max-width: 20%;
+       clip-path: circle(40% at center);
+    }
+    
+
 body{
     background-color: aqua;
 }
