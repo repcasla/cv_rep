@@ -7,7 +7,7 @@
     <title imag="">CV RODRIGO EZEQUIEL PALETTA</title>
     <link href="C:/Users/Rodrigo/Desktop/Proyecto/cv rep/css/estilo.css" rel="stylesheet" type="text/css">
     <script src="js/prog,js"></script>
-
+    
 </head>
 
 <body>
@@ -16,8 +16,8 @@
 
             <button class="botonMenu" onclick="accion()">Menú</button>
             <a href="#buttonsRedes" class="nav-enlace desaparece">Redes</a>
-            <a href="#formacion" class="nav-enlace desaparece">Formación</a>
             <a href="#experienciaL" class="nav-enlace desaparece">Experiencia</a>
+            <a href="#formacion" class="nav-enlace desaparece">Formación</a>            
             <a href="#conocimiento" class="nav-enlace desaparece">Conocimiento</a>
             <a href="#contacto" class="nav-enlace desaparece">Contacto</a>
         
@@ -26,7 +26,7 @@
         <div class="Datos">
             <h1>Rodrigo Ezequiel Paletta</h1>
             
-                <figure><img src="C:/Users/Rodrigo/Desktop/Proyecto/cv rep/imagen/rep_cv_css.png"></figure>
+                <figure class="imgrep"><img src="C:/Users/Rodrigo/Desktop/Proyecto/cv rep/imagen/rep_cv_css.png"></figure>
            
             <video>Video presentacion</video>
 
@@ -60,7 +60,7 @@
             <a href= "https://www.instagram.com/" class="fa fa-instagram"></a>
             <a href="https://twitter.com/?lang=es" class="fa fa-twitter"></a>
             <a href="https://www.linkedin.com" class="fa fa-linkedin"></a>
-        <!--El acceso a los links lleva solamente a la pagina de inicio de cada una a modo de ejemplo-->
+        
     </section>   
 
     <div>
@@ -109,14 +109,35 @@
     <div>
         <section class="Conocimiento" id="Conocimiento">
             <h1>Conocimiento</h1>
-            <p>Git/Github</p>
+            <p><i class="fa-brands fa-git"></i>Git</p>
+            <p class="fa-brands fa-github">Github</p>
             <p>Visual Studio Code</p>
             <p>Cinema 4D</p>
             <p>Autodesk Fusion 360</p>
+            <p>Virtual Box</p>
             <p>Microsoft Office</p>
             <p>Sistema Tango</p>
+            <p>Idioma Ingles Basico</p>
 
         </section>
     </div>
+
+    <section class="form-contact contacto" id="contacto">
+        <!--no se genera un php para no tener que generar informacion falsa-->
+        <form action="" method="post" class="contact">
+            <h2>Contacto</h2>
+          
+          <input type="text" name="nombre" id="nombre" placeholder="Nombre"
+          required>
+          <input type="text" name="correo" id="correo" placeholder="Correo"
+          required>
+          <input type="text" name="celular" id="celular" placeholder="Celular"
+          required>
+          <textarea name="mensaje" id="mensaje" placeholder="Deje su mensaje aquí"></textarea>
+          <input type="submit" value="Enviar">
+        
+        </form>
+
+      </section>
 </body>
 </html>
