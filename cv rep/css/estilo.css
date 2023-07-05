@@ -7,8 +7,27 @@
 img {
        max-width: 20%;
        clip-path: circle(40% at center);
+       float:center;
+       
     }
-    
+
+.Datos {
+  float: left;
+  align-items: stretch;
+  
+}    
+
+.center{
+  
+}
+
+.experienciaL{
+  
+}
+
+.Conocimiento{
+  
+}
 
 body{
     background-color: rgb(51, 255, 0);
